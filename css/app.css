@@ -1,0 +1,59 @@
+.tableblur{
+    filter: blur(5px);
+    
+}
+
+.agregar{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.exitico{
+    color: #607d8b;
+    font-size: 25px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuico{
+    color: #607d8b;
+    font-size: 25px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 2000;
+    font-size: 28px;
+}
+
+
+.boxadd{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    position: fixed;
+    background-color: rgba(250, 250, 250, 0.3);
+    top: 0px;
+    z-index: 200;
+    color: black;
+}
+
+.boxaddon{
+    display: flex;    
+}
+
+.aboutbox{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+}
